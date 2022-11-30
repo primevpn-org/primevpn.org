@@ -37,12 +37,50 @@
         </div>
 
         <a id="anni9" class="fs-5 text-white ms-2 btn btn-outline-light mt-4 placeholder" href="mailto:primevpn@gmail.com?subject=PrimeVPN%20access!&body=I%20would%20like%20to%20use%20PrimeVPN.">Get invite →</a>
+        <a id="anni10" class="fs-5 text-white ms-2 btn btn-outline-info mt-4 placeholder" data-bs-toggle="offcanvas" href="#offcanvasRight" role="button" aria-controls="offcanvasBottom">Instructions</a>
+
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title text-dark" id="offcanvasRightLabel">Offcanvas rigkjhbhjht</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body text-dark">
+            <div class="mb-4">
+                <h4>1. Get access</h4><br>
+                <a class="fs-5 ms-2 mt-4" href="mailto:primevpn@gmail.com?subject=PrimeVPN%20access!&body=I%20would%20like%20to%20use%20PrimeVPN.">Click here and ask for an account</a>
+            </div>
+            <div class="mb-4">
+                <h4>2. Install the "OpenVPN Connect" application</h4><br>
+                <ul>
+                    <li><a href="https://openvpn.net/downloads/openvpn-connect-v3-windows.msi">Windows</a></li>
+                    <li><a href="https://openvpn.net/downloads/openvpn-connect-v3-macos.dmg">Mac OS</a></li>
+                    <li><a href="https://community.openvpn.net/openvpn/wiki/OpenVPN3Linux">Linux</a></li>
+                    <li><a href="https://play.google.com/store/apps/details?id=net.openvpn.openvpn">Android</a></li>
+                    <li><a href="https://itunes.apple.com/us/app/openvpn-connect/id590379981?mt=8">iOS</a></li>
+                </ul>
+            </div>
+            <div class="mb-4">
+                <h4>4. Download .ovpn file</h4><br>
+                <p>Click on the link in the email you got from us and save the .ovpn file on your device. <br><br>Don't forget to write down your username and password.</p>
+            </div>
+            <div class="mb-4">
+                <h4>3. Sign in</h4><br>
+                <p>Open the "OpenVPN Connect" application and import the .ovpn file you just downloaded and enter your username/password and connect.</p>
+                <p></p>
+            </div>
+            
+
+            <p></p>
+          </div>
+        </div>
+
     </div>
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </body>
 <script>
     window.onload = (event) => {
-        document.querySelectorAll('#anni, #anni2, #anni3, #anni4, #anni5, #anni6, #anni7, #anni8, #anni9').forEach(el => el.classList.remove('placeholder'))
+        document.querySelectorAll('#anni, #anni2, #anni3, #anni4, #anni5, #anni6, #anni7, #anni8, #anni9, #anni10').forEach(el => el.classList.remove('placeholder'))
     };
 </script>
 </html>
